@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+  # No build command needed for static HTML
+
+# Optional: set proper MIME types for assets
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"

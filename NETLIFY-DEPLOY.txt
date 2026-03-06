@@ -1,0 +1,35 @@
+========================================
+  HOW TO DEPLOY YOUR PORTFOLIO TO NETLIFY
+========================================
+
+IMPORTANT: You must upload ALL files together, not just the HTML!
+
+1. FILES TO INCLUDE (all must be in the SAME folder):
+   - index.html          (main page - required!)
+   - netlify.toml        (deploy config)
+   
+   ASSETS (required for images/video to show):
+   - despro.png          (profile photo)
+   - mangpro.png         (video thumbnail)
+   - posterdes.png       (promotional poster)
+   - promotionaldes.png  (promotional design)
+   - Digital_Geometry.png (digital art)
+   - mango2.mp4         (video - max 10MB per file on Netlify free)
+
+2. DRAG-AND-DROP DEPLOY:
+   - Go to https://app.netlify.com
+   - Sign in or create account
+   - Drag the ENTIRE "web" folder into the deploy zone
+   - Wait for deploy to finish
+   - Your site will be live at something like: random-name-123.netlify.app
+
+3. IF IMAGES/VIDEO DON'T SHOW:
+   - Make sure ALL asset files are in the same folder as index.html
+   - Check file names match exactly (case-sensitive): Digital_Geometry.png
+   - Video: Netlify has 10MB limit per file - compress mango2.mp4 if needed
+
+4. IF YOU GET 404:
+   - You need index.html (not just "Desirei Kate Apura.html")
+   - The index.html file is now in your folder - use that for deploy
+
+========================================
